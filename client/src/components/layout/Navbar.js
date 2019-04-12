@@ -33,7 +33,7 @@ class Navbar extends Component {
               src={user.avatar}
               alt={user.name}
               style={{ width: "25px", marginRight: "5px" }}
-              title="{user.name}"
+              // title={user.name}
             />{" "}
             Logout
           </a>

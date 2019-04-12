@@ -8,7 +8,7 @@ img {
 
 .landing {
   position: relative;
-  background: url("./img/Innove_logo_highres_vector.png") no-repeat;
+  background: url("./img/Innove_logo_highres_vector.svg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
