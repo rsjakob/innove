@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 export default () => {
   return (
-    <footer className="bg-dark text-white mt-5 p-4 text-center">
+    <footer className="bg-light text-dark mt-5 p-1 text-center">
       Copyright &copy; {new Date().getFullYear()} Innove LLC
     </footer>
   );

@@ -1,37 +1,34 @@
-aimport React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { PropTypes } from 'prop-types';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { PropTypes } from "prop-types";
+import { connect } from "react-redux";
 
 class Landing extends Component {
   componentDidMount() {
     if (this.props.auth.isAuthenticated) {
-      this.props.history.push('/dashboard');
+      this.props.history.push("/dashboard");
     }
   }
 
   render() {
     return (
       <div className="landing">
-        <div className="dark-overlay landing-inner text-light">
+        <div className="light-overlay landing-inner text-dark">
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <p className="lead">
-                  {' '}
-                  One Team, One Family, One App
-                </p>
+                <p className="lead"> One Company, One Family, One App </p>{" "}
                 <hr />
-                <Link to="/register" className="btn btn-lg btn-info mr-2">
-                  Sign Up
-                </Link>
-                <Link to="/login" className="btn btn-lg btn-light">
-                  Login
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+                <Link to="/register" className="btn btn-lg btn-light mr-2">
+                  Sign Up{" "}
+                </Link>{" "}
+                <Link to="/login" className="btn btn-lg btn-dark">
+                  Login{" "}
+                </Link>{" "}
+              </div>{" "}
+            </div>{" "}
+          </div>{" "}
+        </div>{" "}
       </div>
     );
   }

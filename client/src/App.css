@@ -8,7 +8,7 @@ img {
 
 .landing {
   position: relative;
-  background: url("./img/showcase.jpg") no-repeat;
+  background: url("./img/Innove_logo_highres_vector.png") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -21,7 +21,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -42,9 +42,11 @@ img {
   color: #bbb !important;
 }
 
-footer {
+ {
+  /*footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}*/
 }
